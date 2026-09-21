@@ -11,11 +11,11 @@
 - [x] 2.2 Review source, example assets, media, generated bindings, native dependencies, and copied snippets for redistribution rights; remove or replace unlicensed material before release and keep the external GroMore SDK out of archives.
 - [x] 2.3 Add accurate canonical repository metadata, package descriptions, README installation instructions, and version-matched changelog entries to the six package manifests/docs; leave demo Apps `publish_to: none`.
 - [x] 2.4 Move existing `spatial_confetti` and `owl_haptics` package check commands from MyCards root into this workspace's package-owned validation docs/scripts, preserving Pigeon drift, focused package tests, examples, and native checks; document `owl_marquee`, `ndef_kit`, and `owl_ads` checks at their package owners.
-- [ ] 2.5 Run focused format/analyze/tests and `flutter pub publish --dry-run` for `ndef_kit`; record archive contents, size, dependencies, and warnings.
+- [x] 2.5 Run focused format/analyze/tests and `flutter pub publish --dry-run` for `ndef_kit`; record archive contents, size, dependencies, and warnings.
 - [x] 2.6 Run focused format/analyze/tests and `flutter pub publish --dry-run` for `owl_haptics`; record Pigeon/native evidence and archive review.
-- [ ] 2.7 Run focused format/analyze/tests and `flutter pub publish --dry-run` for `owl_marquee`; record its example and archive review.
+- [x] 2.7 Run focused format/analyze/tests and `flutter pub publish --dry-run` for `owl_marquee`; record its example and archive review.
 - [ ] 2.8 Run focused format/analyze/tests and `flutter pub publish --dry-run` for `spatial_confetti`; inspect its docs/media archive contents, size, dependencies, and warnings.
-- [ ] 2.9 Run focused Dart checks and `dart pub publish --dry-run` for `owl_ads`; inspect its archive contents, size, dependencies, and warnings.
+- [x] 2.9 Run focused Dart checks and `dart pub publish --dry-run` for `owl_ads`; inspect its archive contents, size, dependencies, and warnings.
 
 ## 3. Publish independent releases
 

@@ -90,8 +90,8 @@ final playback = controller.emit(GuidePresets.celebration(origin));
 ```bash
 cd packages/spatial_confetti/example
 flutter pub get
-flutter run -t ../docs/gallery.dart
-# 最小 Overlay 示例：flutter run -t ../docs/quick_start.dart
+flutter run -t ../doc/gallery.dart
+# 最小 Overlay 示例：flutter run -t ../doc/quick_start.dart
 ```
 
 画廊可选择六个场景、重播、暂停/继续，并吹入一次局部阵风。重播会新建时钟和初始风场，保证同种子比较的条件相同。

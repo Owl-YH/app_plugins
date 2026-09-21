@@ -14,17 +14,26 @@ void main() {
       final sim = flight.simulation;
       final samples = <List<double>>[];
       var previousAngle = 40 * math.pi / 180, pitch = previousAngle;
-      var minPitch = pitch, maxPitch = pitch, maxSpin = 0.0, maxPlaneError = 0.0;
+      var minPitch = pitch,
+          maxPitch = pitch,
+          maxSpin = 0.0,
+          maxPlaneError = 0.0;
       for (var frame = 0; frame <= 360; frame++) {
         if (frame > 0) sim.advance(elapsedForFrame(frame - 1, 60));
         final p = sim.snapshot.single, r = p.widthDirections.single;
         final angle = math.atan2(r.dot(flight.down), r.dot(flight.across));
-        pitch += math.atan2(math.sin(angle - previousAngle), math.cos(angle - previousAngle));
+        pitch += math.atan2(
+          math.sin(angle - previousAngle),
+          math.cos(angle - previousAngle),
+        );
         previousAngle = angle;
         minPitch = math.min(minPitch, pitch);
         maxPitch = math.max(maxPitch, pitch);
         maxSpin = math.max(maxSpin, p.angularVelocity!.length);
-        maxPlaneError = math.max(maxPlaneError, p.position.dot(flight.axis).abs());
+        maxPlaneError = math.max(
+          maxPlaneError,
+          p.position.dot(flight.axis).abs(),
+        );
         samples.add([
           frame / 60,
           p.position.dot(flight.across),
@@ -71,7 +80,7 @@ void main() {
       sim.dispose();
     }
     File(
-      'docs/assets/paper-flight.json',
+      'doc/assets/paper-flight.json',
     ).writeAsStringSync(const JsonEncoder.withIndent('  ').convert(cases));
   });
 }

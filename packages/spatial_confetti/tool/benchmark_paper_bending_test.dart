@@ -17,10 +17,12 @@ void main() {
     ]) {
       for (final rigid in [true, false]) {
         final recipe = rigid
-            ? PaperParticle.noBend(shape: shape, )
-            : PaperParticle.bend(shape: shape, );
+            ? PaperParticle.noBend(shape: shape)
+            : PaperParticle.bend(shape: shape);
         final sim = ConfettiSimulation(
-          wind: WindField(sources: [WindSource.global(velocity: const Vec3(1, 0, .5))]),
+          wind: WindField(
+            sources: [WindSource.global(velocity: const Vec3(1, 0, .5))],
+          ),
         );
         final timer = Stopwatch()..start();
         sim.emit(effect(particle: recipe, count: 64));
@@ -66,7 +68,7 @@ void main() {
       }
     }
     File(
-      'docs/assets/paper-bending-cost.json',
+      'doc/assets/paper-bending-cost.json',
     ).writeAsStringSync(const JsonEncoder.withIndent('  ').convert(rows));
   });
 }

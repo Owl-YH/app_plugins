@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 
-assets = Path(__file__).resolve().parents[1] / 'docs/assets'
+assets = Path(__file__).resolve().parents[1] / 'doc/assets'
 font_manager.fontManager.addfont('/System/Library/Fonts/Supplemental/Arial Unicode.ttf')
 plt.rcParams.update({'font.family': 'Arial Unicode MS', 'axes.unicode_minus': False,
                      'text.color':'#e3eaf3', 'axes.labelcolor':'#becade',

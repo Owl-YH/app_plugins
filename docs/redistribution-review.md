@@ -19,7 +19,7 @@ what was inspected and which generated font outlines were removed.
 
 ## Package assets
 
-- `spatial_confetti/docs/assets` contains about 1.8 MB of screenshots, diagrams,
+- `spatial_confetti/doc/assets` contains about 1.8 MB of screenshots, diagrams,
   simulation plots, and six MP4 recordings. The package's own capture,
   plotting, and guide scripts document how these assets were generated from
   Flutter rendering and simulation, but the repository alone cannot prove

@@ -22,18 +22,18 @@ const PaperParticle.noBend(); // 始终保持平面，仍会飞行和翻转
 
 ## 图文使用指南
 
-[打开完整中文指南](docs/guide.md) · [离线阅读版（含真实动画视频）](docs/guide.html)
+[打开完整中文指南](doc/guide.md) · [离线阅读版（含真实动画视频）](doc/guide.html)
 
 指南包含六组可复制预设、真实 Flutter 渲染截图与视频、八张原理图和实际求解轨迹图，
 以及各配置项的默认值、单位、范围、调节效果和常见误区。
-[完整配方](docs/presets.dart) 与 [可运行画廊](docs/gallery.dart) 使用同一份配置。
-[API 命名审查](docs/api-naming.md)记录已完成的构造调整和其余命名建议。
+[完整配方](doc/presets.dart) 与 [可运行画廊](doc/gallery.dart) 使用同一份配置。
+[API 命名审查](doc/api-naming.md)记录已完成的构造调整和其余命名建议。
 
 多形状纸片已接入：矩形、圆形、三角形、星形、心形和自定义 polygon/path。
 矩形 `PaperShape.rectangle()` 内置轻微圆角，无需额外配置。圆角半径为规范轮廓短边的 20%，
 `PaperSize.stretched` 会同时拉伸圆角。圆角与物理、绘制共用同一份几何，计入已有三角形预算。
 通过 PaperShape + PaperSize 声明轮廓与尺寸，复用 ParticleChoice + weight 混合纸片和彩带。
-历史实施设计与验证来源见[迁入记录](docs/history.md)。
+历史实施设计与验证来源见[迁入记录](doc/history.md)。
 
 ## 使用
 
@@ -173,7 +173,7 @@ stream 的 `burstCount` 默认为 0，可设为正数生成开场批次；开场
 色带沿当前速度展开，保留实色主干，仅末端明显收窄淡出；不记录历史。
 StreakParticle 仅保留 width（米）和 airResistance（1/秒）；起点、方向、速度与 Duration 寿命沿用发射器。
 色带长度随当前速度自动变化，柔边随投影速度与宽度自动调整，不需要手动配置长度上限或模糊量。
-完整参数见[独立速度色带](docs/guide.md#streak)。
+完整参数见[独立速度色带](doc/guide.md#streak)。
 stopEmission() 停止该次效果的所有待生成粒子，cancel() 清理该次效果；
 controller.clear() 清空整个 host。风参数实时影响已存在粒子；粒子配方在出生时采样。
 
@@ -275,7 +275,7 @@ proportional 保持形状比例，参数为包围盒最长边的米制随机范�
 压力中心随攻角移动，翻转产生的旋转气动改变速度方向，倾斜纸片从零初始转速也能启动飘摆或翻滚。
 `PaperParticle.bend()` 只沿长边轻微弯成一个浅弧，局部受力驱动单弧变化，法线和材料速度反过来影响气动；
 `PaperParticle.noBend()` 保持平面；两种都要显式选择，不提供默认构造器。两者均为未经实物标定的实时近似。
-详见 [受力弯曲、参数与真实图像](docs/paper-bending.md) 和 [刚性气动参考](docs/paper-aerodynamics.md)。
+详见 [受力弯曲、参数与真实图像](doc/paper-bending.md) 和 [刚性气动参考](doc/paper-aerodynamics.md)。
 
 自定义 polygon/path 复制输入，仅支持单个闭合无自交外轮廓，最多 128 顶点；
 不支持孔洞、分离区域或自交填充。Path 默认相对采样偏差阈值 .002，超出点数限制时拒绝。
@@ -362,7 +362,7 @@ XYZ 风、局部风、阵风、物理节点、单条长度/段数及播放控制
 “静止释放单张纸片”使用最长边 30 cm、面密度 .08、零初速和零初始角速度，沿用当前形状、风和空气系数。
 
 本轮桌面 CPU 证据：64 张矩形物理步进 p95 1.14 ms，64 张圆形 p95 7.48 ms；
-这些不包含 GPU 和屏幕呈现，也不构成手机帧率保证。参见[迁入记录](docs/history.md)中的气动改进历史验收位置。
+这些不包含 GPU 和屏幕呈现，也不构成手机帧率保证。参见[迁入记录](doc/history.md)中的气动改进历史验收位置。
 
 ~~~bash
 cd packages/spatial_confetti
@@ -388,8 +388,8 @@ flutter build web --no-pub
 分别记录在本次 OpenSpec 变更中。
 
 本次重构的数值验证、桌面成本对比和未完成验收见
-[迁入记录](docs/history.md)中的丝带实施证据位置。
+[迁入记录](doc/history.md)中的丝带实施证据位置。
 桌面测试显示新模型显著更慢；当前未取得真机 profile 和匹配实物录像，不能宣称性能或真实运动效果已经达标。
 
-配置构造迁移的历史验证位置见[迁入记录](docs/history.md)。
+配置构造迁移的历史验证位置见[迁入记录](doc/history.md)。
 该迁移保持运动和风场算法，不改变先前彩带性能与实物对照的验收状态。

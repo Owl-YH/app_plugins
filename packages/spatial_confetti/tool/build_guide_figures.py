@@ -4,7 +4,7 @@ from html import escape
 import math
 
 ROOT = Path(__file__).resolve().parents[1]
-ASSETS = ROOT / 'docs/assets'
+ASSETS = ROOT / 'doc/assets'
 BLUE, TEAL, INK, GRAY, GOLD = '#2563eb', '#0d9488', '#14243a', '#64748b', '#d97706'
 
 class Figure:

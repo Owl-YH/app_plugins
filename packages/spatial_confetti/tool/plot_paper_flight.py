@@ -14,7 +14,7 @@ if Path(font).exists():
     font_manager.fontManager.addfont(font)
     plt.rcParams["font.family"] = [font_manager.FontProperties(fname=font).get_name(), "DejaVu Sans"]
 plt.rcParams.update({"font.size": 11, "axes.unicode_minus": False, "svg.fonttype": "path"})
-cases = json.loads((root / "docs/assets/paper-flight.json").read_text())
+cases = json.loads((root / "doc/assets/paper-flight.json").read_text())
 fig, axes = plt.subplots(2, 2, figsize=(12, 9), gridspec_kw={"width_ratios": [1, 1.8]})
 fig.set_facecolor("#f4f6f5")
 fig.suptitle("从静止释放：轨迹与姿态一起改变", fontsize=22, color="#172b3c", y=.97)
@@ -55,5 +55,5 @@ fig.subplots_adjust(top=.85,bottom=.09,left=.09,right=.96,hspace=.46,wspace=.32)
 fig.text(.5,.025,"左图为飞行平面投影，两轴等比例；短线是纸片剖面。结果属于当前气动近似，未经实物标定。",
          ha="center", fontsize=10, color="#5c6c78")
 for suffix in ["png"]:
-    fig.savefig(root / f"docs/assets/paper-flight.{suffix}", dpi=150, facecolor=fig.get_facecolor())
+    fig.savefig(root / f"doc/assets/paper-flight.{suffix}", dpi=150, facecolor=fig.get_facecolor())
 plt.close(fig)

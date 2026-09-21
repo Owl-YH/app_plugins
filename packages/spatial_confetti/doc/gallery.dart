@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:spatial_confetti/spatial_confetti.dart';
 import 'presets.dart';
 
-/// 从 example 目录运行 flutter run -t ../docs/gallery.dart。
+/// 从 example 目录运行 flutter run -t ../doc/gallery.dart。
 void main() => runApp(const MaterialApp(home: GuideGallery()));
 
 /// 展示使用指南中的真实预设，尺寸来自实际绘制区域。

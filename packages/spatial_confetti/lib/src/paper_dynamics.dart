@@ -1,7 +1,7 @@
 part of '../spatial_confetti.dart';
 
 /// 纸片生命周期及派生姿态；仅追加一个长边弧形自由度。
-/// 规范轮廓同时拥有面积、惯量与受力积分点；模型边界见 docs/paper-aerodynamics.md。
+/// 规范轮廓同时拥有面积、惯量与受力积分点；模型边界见 doc/paper-aerodynamics.md。
 class _PaperBody extends _Body {
   _PaperBody({
     required super.id,

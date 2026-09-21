@@ -4,7 +4,7 @@ import { dirname, resolve, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { spawnSync } from 'node:child_process';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const docs = join(root, 'docs');
+const docs = join(root, 'doc');
 const { marked } = process.env.MARKED_MODULE
   ? await import(pathToFileURL(process.env.MARKED_MODULE).href)
   : await import('marked');

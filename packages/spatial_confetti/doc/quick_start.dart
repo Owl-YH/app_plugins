@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:spatial_confetti/spatial_confetti.dart';
 import 'presets.dart';
 
-/// 从 example 目录运行 flutter run -t ../docs/quick_start.dart。
+/// 从 example 目录运行 flutter run -t ../doc/quick_start.dart。
 void main() => runApp(const MaterialApp(home: QuickStart()));
 
 /// 按钮触发一次自动清理的覆盖层动画。
