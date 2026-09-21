@@ -19,12 +19,12 @@
 
 ## 3. Publish independent releases
 
-- [ ] 3.1 From reviewed clean Git source, publish `owl_ads` and verify its exact version resolves from pub.dev; record its version/tag/archive result.
-- [ ] 3.2 Publish and verify a retrievable `ndef_kit` version from reviewed clean Git source; record its version/tag/archive result.
-- [ ] 3.3 Publish and verify a retrievable `owl_haptics` version from reviewed clean Git source; record its version/tag/archive result.
-- [ ] 3.4 Publish and verify a retrievable `owl_marquee` version from reviewed clean Git source; record its version/tag/archive result.
-- [ ] 3.5 Publish and verify a retrievable `spatial_confetti` version from reviewed clean Git source; record its version/tag/archive result.
-- [ ] 3.6 Change `packages/owl_ads_gromore/pubspec.yaml` to a compatible hosted constraint for the verified `owl_ads` release, update its version/changelog if needed, and prove clean dependency resolution.
+- [x] 3.1 From reviewed clean Git source, publish `owl_ads` and verify its exact version resolves from pub.dev; record its version/tag/archive result.
+- [x] 3.2 Publish and verify a retrievable `ndef_kit` version from reviewed clean Git source; record its version/tag/archive result.
+- [x] 3.3 Publish and verify a retrievable `owl_haptics` version from reviewed clean Git source; record its version/tag/archive result.
+- [x] 3.4 Publish and verify a retrievable `owl_marquee` version from reviewed clean Git source; record its version/tag/archive result.
+- [x] 3.5 Publish and verify a retrievable `spatial_confetti` version from reviewed clean Git source; record its version/tag/archive result.
+- [x] 3.6 Change `packages/owl_ads_gromore/pubspec.yaml` to a compatible hosted constraint for the verified `owl_ads` release, update its version/changelog if needed, and prove clean dependency resolution.
 - [ ] 3.7 Run focused Dart/native/example checks and `flutter pub publish --dry-run` for `owl_ads_gromore`; inspect its archive contents, native metadata, dependencies, and warnings.
 - [ ] 3.8 Complete the existing GroMore release checklist with pinned native dependency inspection, Pigeon drift, Android/iOS builds, physical-device flows, and authoritative SSV backend evidence; record unresolved items as blockers without mock results.
 - [ ] 3.9 Publish `owl_ads_gromore` only after its specific real release gates pass; verify the exact hosted version resolves in a fresh consumer and record the tag/archive result.
@@ -32,5 +32,5 @@
 ## 4. Consumers and handoff
 
 - [ ] 4.1 Switch the plugins root demo `pubspec.yaml` and lockfile to the verified hosted `ndef_kit` and `owl_ads_gromore` versions; keep package-local examples exercising local source and run focused real demo analysis/build checks.
-- [ ] 4.2 Update the plugins root README, AGENTS.md, package READMEs, and release record to document independent source ownership, public version upgrades, manual first-release gates, missing device evidence, and rollback by new version/consumer commit rather than unpublish.
-- [ ] 4.3 Hand the exact hosted `spatial_confetti`, `owl_haptics`, and `owl_marquee` versions plus release evidence to the companion MyCards change; do not remove MyCards package trees from this repo-local task.
+- [x] 4.2 Update the plugins root README, AGENTS.md, package READMEs, and release record to document independent source ownership, public version upgrades, manual first-release gates, missing device evidence, and rollback by new version/consumer commit rather than unpublish.
+- [x] 4.3 Hand the exact hosted `spatial_confetti`, `owl_haptics`, and `owl_marquee` versions plus release evidence to the companion MyCards change; do not remove MyCards package trees from this repo-local task.

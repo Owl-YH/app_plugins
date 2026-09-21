@@ -293,9 +293,10 @@ packages:
   ndef_kit:
     dependency: "direct main"
     description:
-      path: "packages/ndef_kit"
-      relative: true
-    source: path
+      name: ndef_kit
+      sha256: bf5a9308fb5375ddf41a112d500c56e3210155a031fa5222fddf0faa304d07d6
+      url: "https://pub.dev"
+    source: hosted
     version: "0.1.0"
   ndef_record:
     dependency: transitive
@@ -332,9 +333,10 @@ packages:
   owl_ads:
     dependency: transitive
     description:
-      path: "packages/owl_ads"
-      relative: true
-    source: path
+      name: owl_ads
+      sha256: dcf7ce0fc9cc98a9a974677d71a1aac971e2a1eb4a1331fbab7f11785e0834e5
+      url: "https://pub.dev"
+    source: hosted
     version: "0.1.0"
   owl_ads_gromore:
     dependency: "direct main"

@@ -13,7 +13,8 @@ dependencies:
     sdk: flutter
   meta: ^1.18.0
   owl_ads:
-    path: ../owl_ads
+    hosted: https://pub.dev
+    version: ^0.1.0
 
 dev_dependencies:
   flutter_test:

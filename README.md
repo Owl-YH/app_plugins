@@ -1,12 +1,14 @@
 # Flutter 插件测试中心
 
+本仓库是六个 Flutter 插件包的源码仓库。`owl_ads`、`ndef_kit`、`owl_haptics`、`owl_marquee` 和 `spatial_confetti` 已发布 `0.1.0` 到 pub.dev，源码标签和校验记录见 [首次发布记录](docs/release-evidence.md)。`owl_ads_gromore` 因真机广告流程及服务端 SSV 尚未验收而暂缓发布，保留本地依赖和 `publish_to: none`。已发布版本如需修正，请发布新版本并升级消费者；不能撤销 pub.dev 版本。
+
 当前应用是仓库内 Flutter 插件的真实宿主 Demo，主页提供两个入口：
 
 - NFC 测试：真实 NDEF 标签读取、写入和回读验证。
 - GroMore 广告测试：真实 SDK 初始化、奖励广告、全屏插屏、事件、错误、授权撤回和释放流程。
 
-NFC 核心能力已收敛到仓库内的 `packages/ndef_kit`，当前应用通过本地
-path dependency 接入，同时也是该包的真实设备示例 App。业务代码不直接
+NFC 核心能力由本仓库的 `packages/ndef_kit` 维护，根应用通过 pub.dev 上的
+`ndef_kit 0.1.0` 接入，同时也是该包的真实设备示例 App。业务代码不直接
 依赖 `nfc_manager` 类型。
 
 广告能力由 `packages/owl_ads` 和 `packages/owl_ads_gromore` 提供。根应用
@@ -70,12 +72,11 @@ flutter run --dart-define-from-file=dart_defines.json
 
 ## 复用 NFC 包
 
-其它 Flutter App 可以通过 path 或内部 Git 仓库依赖 `ndef_kit`：
+其它 Flutter App 可以通过 pub.dev 依赖 `ndef_kit`：
 
 ```yaml
 dependencies:
-  ndef_kit:
-    path: ../packages/ndef_kit
+  ndef_kit: ^0.1.0
 ```
 
 公开入口为 `package:ndef_kit/ndef_kit.dart`，提供：

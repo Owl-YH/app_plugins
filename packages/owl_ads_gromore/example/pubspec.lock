@@ -157,9 +157,10 @@ packages:
   owl_ads:
     dependency: transitive
     description:
-      path: "../../owl_ads"
-      relative: true
-    source: path
+      name: owl_ads
+      sha256: dcf7ce0fc9cc98a9a974677d71a1aac971e2a1eb4a1331fbab7f11785e0834e5
+      url: "https://pub.dev"
+    source: hosted
     version: "0.1.0"
   owl_ads_gromore:
     dependency: "direct main"

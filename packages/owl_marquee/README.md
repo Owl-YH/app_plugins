@@ -2,7 +2,7 @@
 
 可复用的 Flutter 跑马灯：四个物理方向、自然内容尺寸、匀速循环、间距、暂停与减少动画适配。运行时仅依赖 Flutter SDK。
 
-最低 Flutter 3.44.6 / Dart 3.12.2。首次 `0.1.0` 版本在 pub.dev 发布后，应用可添加：
+最低 Flutter 3.44.6 / Dart 3.12.2。`0.1.0` 已发布到 pub.dev，应用可添加：
 
 ```yaml
 dependencies:

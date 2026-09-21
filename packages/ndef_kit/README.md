@@ -18,23 +18,15 @@ protected card data, or provide host card emulation.
 
 ## Install
 
-After the first `0.1.0` release is available on pub.dev, add:
+Version `0.1.0` is available on pub.dev. Add:
 
 ```yaml
 dependencies:
   ndef_kit: ^0.1.0
 ```
 
-For this repository's demo during development:
-
-```yaml
-dependencies:
-  ndef_kit:
-    path: ../packages/ndef_kit
-```
-
-The demo keeps the local source dependency until a published version has been
-verified and the demo is updated separately.
+The repository's root demo uses the hosted release. Package-local examples and
+tests continue to exercise this checkout's source.
 
 ## Usage
 

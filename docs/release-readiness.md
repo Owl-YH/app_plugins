@@ -4,15 +4,14 @@
 
 - Canonical source remote supplied by the owner: `https://github.com/Owl-YH/app_plugins`.
 - GitHub reports `Owl-YH/app_plugins` as public. The reviewed local source was committed on `main` and pushed to that remote; `main` now tracks `origin/main`.
-- The pub.dev package API returned HTTP 404 for `owl_haptics`, `owl_marquee`, `spatial_confetti`, `ndef_kit`, `owl_ads`, and `owl_ads_gromore`. This is a point-in-time availability check, not a reservation or proof of upload authorization.
-- The signed-in pub.dev profile shows display name `heng yang`, no packages uploaded as an individual account, and no verified-publisher membership. The six packages therefore currently have no verified publisher. The profile page does not prove this shell's `dart pub publish` authentication.
+- Before publication, the pub.dev package API returned HTTP 404 for all six names. It now returns `0.1.0` for five packages; `owl_ads_gromore` remains unpublished.
+- The signed-in pub.dev personal account `heng yang` authorized the Dart Pub CLI upload. No verified publisher was available for this first release.
 - The owner confirmed `Heng Yang` as copyright holder for all six packages and confirmed that the package graphics, videos, and example icons may be redistributed publicly under BSD-3-Clause.
 - The MyCards source import provenance is recorded in [source-import.md](source-import.md).
-- Initial redistribution findings and items needing owner confirmation are recorded in [redistribution-review.md](redistribution-review.md).
+- The completed redistribution review and the owner's rights confirmation are recorded in [redistribution-review.md](redistribution-review.md).
 - Focused check results and the pub.dev endpoint override are recorded in [release-evidence.md](release-evidence.md).
 
-## Still required before public upload
+## Release status
 
-- Verify CLI publishing authorization at release time. Browser login alone does not prove CLI publishing authorization.
-- Record the five immutable release tags, verify each uploaded version resolves from pub.dev, and update consumers. GroMore retains its separate native acceptance gates.
-- Complete the existing GroMore physical-device and authoritative SSV release gates before publishing `owl_ads_gromore`. The owner chose to publish the other five packages first and defer GroMore while those environments are unavailable.
+- Five `0.1.0` releases were uploaded, independently downloaded from pub.dev, and tagged at source commit `ea20301`. Exact versions and checksums are in [release-evidence.md](release-evidence.md).
+- `owl_ads_gromore` now resolves `owl_ads 0.1.0` from pub.dev, but its physical-device and authoritative SSV release gates remain open. The owner chose to publish the other five packages first and defer GroMore while those environments are unavailable.

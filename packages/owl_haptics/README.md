@@ -2,7 +2,7 @@
 
 `owl_haptics` provides short, semantic, cancelable foreground UI haptics for Android and iOS. It favors platform selection, impact, and outcome feedback, while supporting bounded transient sequences without exposing device-specific waveform arrays.
 
-After the first `0.1.0` release is available on pub.dev, add:
+Version `0.1.0` is available on pub.dev. Add:
 
 ```yaml
 dependencies:

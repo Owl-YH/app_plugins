@@ -3,6 +3,8 @@
 AI 代理进入本 Flutter 插件工作区后先读取本文。除通用代码质量规则外，涉及 iOS
 原生全屏界面的插件必须遵守下面的窗口与生命周期约束。
 
+本仓库是六个插件包的唯一源码归属。`owl_ads`、`ndef_kit`、`owl_haptics`、`owl_marquee`、`spatial_confetti` 的 `0.1.0` 已从本仓库提交发布到 pub.dev；升级须先通过各包检查、审查归档，再发布新版本和标签。`owl_ads_gromore` 仍是未发布包，缺少 Android/iOS 真机广告流程与权威 SSV 验收，保留 `publish_to: none`。根 Demo 仅对已发布的依赖使用 pub.dev，GroMore 仍使用仓库内源码。
+
 ## iOS 原生全屏界面与 Flutter 触摸隔离
 
 ### 已验证事故记录
@@ -77,4 +79,3 @@ iOS 原生全屏界面。
   <https://github.com/flutter/packages/pull/10533>
 - 对应 iOS 全屏关闭触摸问题：
   <https://github.com/flutter/flutter/issues/173453>
-

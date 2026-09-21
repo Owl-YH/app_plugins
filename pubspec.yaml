@@ -34,7 +34,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_riverpod: ^3.4.2
   ndef_kit:
-    path: packages/ndef_kit
+    hosted: https://pub.dev
+    version: ^0.1.0
   owl_ads_gromore:
     path: packages/owl_ads_gromore
 
