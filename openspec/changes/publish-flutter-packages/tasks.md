@@ -14,7 +14,7 @@
 - [x] 2.5 Run focused format/analyze/tests and `flutter pub publish --dry-run` for `ndef_kit`; record archive contents, size, dependencies, and warnings.
 - [x] 2.6 Run focused format/analyze/tests and `flutter pub publish --dry-run` for `owl_haptics`; record Pigeon/native evidence and archive review.
 - [x] 2.7 Run focused format/analyze/tests and `flutter pub publish --dry-run` for `owl_marquee`; record its example and archive review.
-- [ ] 2.8 Run focused format/analyze/tests and `flutter pub publish --dry-run` for `spatial_confetti`; inspect its docs/media archive contents, size, dependencies, and warnings.
+- [x] 2.8 Run focused format/analyze/tests and `flutter pub publish --dry-run` for `spatial_confetti`; inspect its docs/media archive contents, size, dependencies, and warnings.
 - [x] 2.9 Run focused Dart checks and `dart pub publish --dry-run` for `owl_ads`; inspect its archive contents, size, dependencies, and warnings.
 
 ## 3. Publish independent releases
