@@ -1,0 +1,6 @@
+{
+  "editor.wordWrap": "off",
+  "editor.rulers": [80],
+  "dart.lineLength": 100,
+  "prettier.printWidth": 80
+}

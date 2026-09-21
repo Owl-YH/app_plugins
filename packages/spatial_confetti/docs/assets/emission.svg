@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img"><title>03 / 发射方向与出生时间</title><rect width="1000" height="460" rx="16" fill="#f4f7fb"/><style>text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#14243a;font-size:18px}.small{font-size:15px;fill:#64748b}.title{font-size:25px;font-weight:600}</style>
+<text x="32" y="43" class="title" text-anchor="start">03 / 发射方向与出生时间</text>
+<text x="40" y="98" class="" text-anchor="start">spread 是圆锥半角；图为截面示意</text>
+<polygon points="211.00,346.00 74.00,143.00 348.00,143.00" fill="#dbeafe" stroke="none" opacity="1"/>
+<line x1="211" y1="346" x2="211" y2="133" stroke="#2563eb" stroke-width="4" stroke-dasharray=""/>
+<polygon points="211.00,133.00 206.00,146.00 216.00,146.00" fill="#2563eb" stroke="none" opacity="1"/>
+<line x1="211" y1="346" x2="74" y2="143" stroke="#0d9488" stroke-width="2" stroke-dasharray=""/>
+<line x1="211" y1="346" x2="348" y2="143" stroke="#0d9488" stroke-width="2" stroke-dasharray=""/>
+<path d="M 211 257 A 89 89 0 0 1 262 273" fill="none" stroke="#d97706" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="228" y="244" class="" text-anchor="start">spread</text>
+<text x="233" y="145" class="" text-anchor="start">direction</text>
+<circle cx="211" cy="346" r="24" fill="#0d9488" opacity="0.16"/>
+<circle cx="211" cy="346" r="5" fill="#14243a" opacity="1"/>
+<text x="55" y="396" class="" text-anchor="start">origin + 半径 radius 内的随机起点</text>
+<line x1="480" y1="86" x2="480" y2="423" stroke="#dbe3ef" stroke-width="2" stroke-dasharray=""/>
+<text x="533" y="98" class="" text-anchor="start">stream：delay=500ms，rate=4/s，duration=1s</text>
+<line x1="541" y1="203" x2="947" y2="203" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<polygon points="947.00,203.00 934.00,198.00 934.00,208.00" fill="#64748b" stroke="none" opacity="1"/>
+<line x1="551" y1="197" x2="551" y2="209" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<text x="551" y="235" class="small" text-anchor="middle">0</text>
+<line x1="641.5" y1="197" x2="641.5" y2="209" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<text x="641.5" y="235" class="small" text-anchor="middle">0.5</text>
+<line x1="686.75" y1="197" x2="686.75" y2="209" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<text x="686.75" y="235" class="small" text-anchor="middle">0.75</text>
+<line x1="732" y1="197" x2="732" y2="209" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<text x="732" y="235" class="small" text-anchor="middle">1</text>
+<line x1="777.25" y1="197" x2="777.25" y2="209" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<text x="777.25" y="235" class="small" text-anchor="middle">1.25</text>
+<line x1="822.5" y1="197" x2="822.5" y2="209" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<text x="822.5" y="235" class="small" text-anchor="middle">1.5</text>
+<line x1="913" y1="197" x2="913" y2="209" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<text x="913" y="235" class="small" text-anchor="middle">2</text>
+<text x="924" y="261" class="small" text-anchor="start">秒</text>
+<line x1="551" y1="156" x2="641.5" y2="156" stroke="#64748b" stroke-width="5" stroke-dasharray=""/>
+<text x="574" y="142" class="small" text-anchor="start">等待</text>
+<line x1="641.5" y1="156" x2="822.5" y2="156" stroke="#0d9488" stroke-width="5" stroke-dasharray=""/>
+<text x="681" y="142" class="small" text-anchor="start">持续出生 1 秒</text>
+<circle cx="686.75" cy="203" r="6" fill="#0d9488" opacity="1"/>
+<circle cx="732" cy="203" r="6" fill="#0d9488" opacity="1"/>
+<circle cx="777.25" cy="203" r="6" fill="#0d9488" opacity="1"/>
+<circle cx="822.5" cy="203" r="6" fill="#0d9488" opacity="1"/>
+<circle cx="641.5" cy="203" r="9" fill="#2563eb" opacity="1"/>
+<text x="537" y="307" class="" text-anchor="start">蓝点：开场 burstCount（可为 0）</text>
+<text x="537" y="341" class="" text-anchor="start">绿点：后续按累计 rate 出生</text>
+<text x="537" y="385" class="small" text-anchor="start">每个粒子从自己的出生时刻开始计算 lifetime。</text>
+<text x="537" y="413" class="small" text-anchor="start">duration 结束 ≠ 所有粒子同时消失。</text>
+</svg>

@@ -1,0 +1,22 @@
+name: spatial_confetti_example
+description: Interactive inspection of the real spatial_confetti simulation.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  spatial_confetti:
+    path: ..
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  config:
+    enable-web: true

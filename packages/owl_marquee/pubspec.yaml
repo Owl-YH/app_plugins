@@ -1,0 +1,17 @@
+name: owl_marquee
+description: Directional, continuously repeating Flutter widgets with natural sizing.
+version: 0.1.0
+repository: https://github.com/Owl-YH/app_plugins/tree/main/packages/owl_marquee
+
+environment:
+  sdk: '>=3.12.2 <4.0.0'
+  flutter: '>=3.44.6'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

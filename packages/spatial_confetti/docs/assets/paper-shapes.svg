@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img"><title>08 / 同一个轮廓，关联外观和物理属性</title><rect width="1000" height="400" rx="16" fill="#f4f7fb"/><style>text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#14243a;font-size:18px}.small{font-size:15px;fill:#64748b}.title{font-size:25px;font-weight:600}</style>
+<text x="32" y="43" class="title" text-anchor="start">08 / 同一个轮廓，关联外观和物理属性</text>
+<rect x="30" y="102" width="260" height="86" rx="10" fill="white" stroke="#dbe3ef"/>
+<line x1="31" y1="117" x2="31" y2="173" stroke="#2563eb" stroke-width="4" stroke-dasharray=""/>
+<text x="45" y="134" class="" text-anchor="start">PaperShape</text>
+<text x="45" y="162" class="small" text-anchor="start">只定义轮廓，保留凹处</text>
+<rect x="370" y="102" width="260" height="86" rx="10" fill="white" stroke="#dbe3ef"/>
+<line x1="371" y1="117" x2="371" y2="173" stroke="#2563eb" stroke-width="4" stroke-dasharray=""/>
+<text x="385" y="134" class="" text-anchor="start">PaperSize</text>
+<text x="385" y="162" class="small" text-anchor="start">等比缩放 / 独立拉伸</text>
+<rect x="708" y="102" width="260" height="86" rx="10" fill="white" stroke="#dbe3ef"/>
+<line x1="709" y1="117" x2="709" y2="173" stroke="#2563eb" stroke-width="4" stroke-dasharray=""/>
+<text x="723" y="134" class="" text-anchor="start">ParticleChoice</text>
+<text x="723" y="162" class="small" text-anchor="start">完整配方 + 相对权重</text>
+<line x1="300" y1="145" x2="355" y2="145" stroke="#2563eb" stroke-width="4" stroke-dasharray=""/>
+<polygon points="355.00,145.00 342.00,140.00 342.00,150.00" fill="#2563eb" stroke="none" opacity="1"/>
+<line x1="640" y1="145" x2="693" y2="145" stroke="#2563eb" stroke-width="4" stroke-dasharray=""/>
+<polygon points="693.00,145.00 680.00,140.00 680.00,150.00" fill="#2563eb" stroke="none" opacity="1"/>
+<rect x="30" y="257" width="430" height="91" rx="10" fill="white" stroke="#dbe3ef"/>
+<line x1="31" y1="272" x2="31" y2="333" stroke="#0d9488" stroke-width="4" stroke-dasharray=""/>
+<text x="45" y="289" class="" text-anchor="start">同一份规范几何</text>
+<text x="45" y="317" class="small" text-anchor="start">三角网格、实际面积、质心与惯量</text>
+<rect x="540" y="257" width="428" height="91" rx="10" fill="white" stroke="#dbe3ef"/>
+<line x1="541" y1="272" x2="541" y2="333" stroke="#0d9488" stroke-width="4" stroke-dasharray=""/>
+<text x="555" y="289" class="" text-anchor="start">两个独立空气系数</text>
+<text x="555" y="317" class="small" text-anchor="start">压力气动与旋转 / 表面切向摩擦</text>
+<line x1="470" y1="302" x2="525" y2="302" stroke="#0d9488" stroke-width="4" stroke-dasharray=""/>
+<polygon points="525.00,302.00 512.00,297.00 512.00,307.00" fill="#0d9488" stroke="none" opacity="1"/>
+<text x="32" y="383" class="small" text-anchor="start">曲线离散和三角化在准备时完成；每次出生独立随机采样尺寸和运动。</text>
+</svg>

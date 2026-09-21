@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510" role="img"><title>04 / 柔性丝带：材料位置与三种形变</title><rect width="1000" height="510" rx="16" fill="#f4f7fb"/><style>text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#14243a;font-size:18px}.small{font-size:15px;fill:#64748b}.title{font-size:25px;font-weight:600}</style>
+<text x="32" y="43" class="title" text-anchor="start">04 / 柔性丝带：材料位置与三种形变</text>
+<path d="M70 160 C 170 80 280 230 420 135" fill="none" stroke="#0d9488" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70 160 C 170 80 280 230 420 135" fill="none" stroke="#5eead4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70" cy="160" r="5" fill="#14243a" opacity="1"/>
+<text x="70" y="212" class="" text-anchor="middle">u=0 前端</text>
+<circle cx="248" cy="160" r="5" fill="#14243a" opacity="1"/>
+<text x="248" y="212" class="" text-anchor="middle">u=0.5</text>
+<circle cx="420" cy="135" r="5" fill="#14243a" opacity="1"/>
+<text x="420" y="212" class="" text-anchor="middle">u=1 尾部</text>
+<text x="490" y="116" class="" text-anchor="start">材料点诊断固定追踪 u=0.5</text>
+<text x="490" y="150" class="" text-anchor="start">segments 是物理段数；节点数 = segments + 1</text>
+<text x="490" y="184" class="small" text-anchor="start">节点质量固定；出生时整条材料已经存在。</text>
+<line x1="32" y1="247" x2="968" y2="247" stroke="#dbe3ef" stroke-width="2" stroke-dasharray=""/>
+<text x="55" y="289" class="" text-anchor="start">带面外弯曲</text>
+<text x="55" y="318" class="small" text-anchor="start">bendingStiffness</text>
+<path d="M70 408 C 100 328 207 477 270 374" fill="none" stroke="#2563eb" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="55" y="466" class="small" text-anchor="start">控制翻卷难易</text>
+<text x="366" y="289" class="" text-anchor="start">带面内弯曲</text>
+<text x="366" y="318" class="small" text-anchor="start">inPlaneBendingStiffness</text>
+<path d="M380 405 Q 464 346 572 405" fill="none" stroke="#0d9488" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="366" y="466" class="small" text-anchor="start">控制沿带面侧向弯折</text>
+<text x="689" y="289" class="" text-anchor="start">绕长度方向扭转</text>
+<text x="689" y="318" class="small" text-anchor="start">torsionalStiffness</text>
+<path d="M710 388 C 760 344 820 436 930 388" fill="none" stroke="#d97706" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M710 414 C 760 458 820 366 930 414" fill="none" stroke="#d97706" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="689" y="466" class="small" text-anchor="start">控制截面扭转后的回复</text>
+</svg>

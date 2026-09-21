@@ -1,0 +1,4 @@
+schema: spec-driven
+created: 2026-08-14
+goal: Remove provider-instance channel conflicts without sacrificing concurrent
+  placement sessions or future provider extensibility.

@@ -1,0 +1,11 @@
+name: owl_ads
+description: Provider-neutral advertising contracts and domain models for Dart applications.
+version: 0.1.0
+repository: https://github.com/Owl-YH/app_plugins/tree/main/packages/owl_ads
+
+environment:
+  sdk: ^3.12.2
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.26.3

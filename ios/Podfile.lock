@@ -1,0 +1,32 @@
+PODS:
+  - Ads-CN/BUAdSDK (7.7.0.6)
+  - Ads-CN/CSJMediation-Only (7.7.0.6):
+    - Ads-CN/BUAdSDK
+  - Flutter (1.0.0)
+  - owl_ads_gromore (0.1.0):
+    - Ads-CN/BUAdSDK (= 7.7.0.6)
+    - Ads-CN/CSJMediation-Only (= 7.7.0.6)
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - owl_ads_gromore (from `.symlinks/plugins/owl_ads_gromore/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Ads-CN
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  owl_ads_gromore:
+    :path: ".symlinks/plugins/owl_ads_gromore/ios"
+
+SPEC CHECKSUMS:
+  Ads-CN: 13a913e6c7b1874bb1676322046e864ac312dbaa
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  owl_ads_gromore: 5fcde08e36cb42576bacc52623c17bf05332c6be
+
+PODFILE CHECKSUM: 6c0ab1c7eac7d8c602eb4466eac9a80a19f9ff9a
+
+COCOAPODS: 1.16.2

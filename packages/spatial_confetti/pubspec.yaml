@@ -1,0 +1,13 @@
+name: spatial_confetti
+description: Composable XYZ confetti with flexible ribbons, coherent wind and independent velocity streaks.
+version: 0.1.0
+repository: https://github.com/Owl-YH/app_plugins/tree/main/packages/spatial_confetti
+environment:
+  sdk: ">=3.12.2 <4.0.0"
+  flutter: ">=3.44.6"
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

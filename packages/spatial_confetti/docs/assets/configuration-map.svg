@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img"><title>01 / 从配方到画面</title><rect width="1000" height="360" rx="16" fill="#f4f7fb"/><style>text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#14243a;font-size:18px}.small{font-size:15px;fill:#64748b}.title{font-size:25px;font-weight:600}</style>
+<text x="32" y="43" class="title" text-anchor="start">01 / 从配方到画面</text>
+<rect x="32" y="92" width="248" height="85" rx="10" fill="white" stroke="#dbe3ef"/>
+<line x1="33" y1="107" x2="33" y2="162" stroke="#2563eb" stroke-width="4" stroke-dasharray=""/>
+<text x="47" y="124" class="" text-anchor="start">ConfettiEffect</text>
+<text x="47" y="152" class="small" text-anchor="start">seed + 多个发射器</text>
+<rect x="372" y="92" width="255" height="85" rx="10" fill="white" stroke="#dbe3ef"/>
+<line x1="373" y1="107" x2="373" y2="162" stroke="#2563eb" stroke-width="4" stroke-dasharray=""/>
+<text x="387" y="124" class="" text-anchor="start">ConfettiEmitter</text>
+<text x="387" y="152" class="small" text-anchor="start">出生时机、位置、初速度</text>
+<rect x="716" y="92" width="250" height="85" rx="10" fill="white" stroke="#dbe3ef"/>
+<line x1="717" y1="107" x2="717" y2="162" stroke="#2563eb" stroke-width="4" stroke-dasharray=""/>
+<text x="731" y="124" class="" text-anchor="start">ParticleChoice</text>
+<text x="731" y="152" class="small" text-anchor="start">粒子配方、权重、颜色</text>
+<line x1="286" y1="133" x2="357" y2="133" stroke="#2563eb" stroke-width="4" stroke-dasharray=""/>
+<polygon points="357.00,133.00 344.00,128.00 344.00,138.00" fill="#2563eb" stroke="none" opacity="1"/>
+<line x1="637" y1="133" x2="700" y2="133" stroke="#2563eb" stroke-width="4" stroke-dasharray=""/>
+<polygon points="700.00,133.00 687.00,128.00 687.00,138.00" fill="#2563eb" stroke="none" opacity="1"/>
+<rect x="32" y="238" width="248" height="85" rx="10" fill="white" stroke="#dbe3ef"/>
+<line x1="33" y1="253" x2="33" y2="308" stroke="#0d9488" stroke-width="4" stroke-dasharray=""/>
+<text x="47" y="270" class="" text-anchor="start">Controller / Simulation</text>
+<text x="47" y="298" class="small" text-anchor="start">重力 + 风场 + 资源预算</text>
+<rect x="372" y="238" width="255" height="85" rx="10" fill="white" stroke="#dbe3ef"/>
+<line x1="373" y1="253" x2="373" y2="308" stroke="#0d9488" stroke-width="4" stroke-dasharray=""/>
+<text x="387" y="270" class="" text-anchor="start">Camera</text>
+<text x="387" y="298" class="small" text-anchor="start">米 → 逻辑像素</text>
+<rect x="716" y="238" width="250" height="85" rx="10" fill="white" stroke="#dbe3ef"/>
+<line x1="717" y1="253" x2="717" y2="308" stroke="#0d9488" stroke-width="4" stroke-dasharray=""/>
+<text x="731" y="270" class="" text-anchor="start">View / Painter</text>
+<text x="731" y="298" class="small" text-anchor="start">材料 + 独立速度色带</text>
+<line x1="840" y1="184" x2="840" y2="211" stroke="#0d9488" stroke-width="4" stroke-dasharray=""/>
+<polygon points="840.00,211.00 845.00,198.00 835.00,198.00" fill="#0d9488" stroke="none" opacity="1"/>
+<line x1="155" y1="212" x2="840" y2="212" stroke="#0d9488" stroke-width="2" stroke-dasharray=""/>
+<line x1="155" y1="212" x2="155" y2="231" stroke="#0d9488" stroke-width="4" stroke-dasharray=""/>
+<polygon points="155.00,231.00 160.00,218.00 150.00,218.00" fill="#0d9488" stroke="none" opacity="1"/>
+<line x1="286" y1="279" x2="357" y2="279" stroke="#0d9488" stroke-width="4" stroke-dasharray=""/>
+<polygon points="357.00,279.00 344.00,274.00 344.00,284.00" fill="#0d9488" stroke="none" opacity="1"/>
+<line x1="637" y1="279" x2="700" y2="279" stroke="#0d9488" stroke-width="4" stroke-dasharray=""/>
+<polygon points="700.00,279.00 687.00,274.00 687.00,284.00" fill="#0d9488" stroke="none" opacity="1"/>
+</svg>

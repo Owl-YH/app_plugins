@@ -1,0 +1,19 @@
+name: ndef_kit
+description: Reusable NDEF read, write, verification, diagnostics, and session lifecycle APIs for Flutter apps.
+version: 0.1.0
+repository: https://github.com/Owl-YH/app_plugins/tree/main/packages/ndef_kit
+
+environment:
+  sdk: ^3.11.4
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  nfc_manager: ^4.2.1
+  nfc_manager_ndef: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

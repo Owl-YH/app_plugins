@@ -1,0 +1,50 @@
+[
+  {
+    "shape": "rectangle",
+    "rigid": true,
+    "particles": 64,
+    "birthMs": 16.555,
+    "physicsP50Ms": 0.684,
+    "physicsP95Ms": 0.974,
+    "paintP50Ms": 0.131,
+    "paintP95Ms": 0.314,
+    "invalidParticles": 0,
+    "triangles": 126
+  },
+  {
+    "shape": "rectangle",
+    "rigid": false,
+    "particles": 64,
+    "birthMs": 5.043,
+    "physicsP50Ms": 1.093,
+    "physicsP95Ms": 1.474,
+    "paintP50Ms": 0.831,
+    "paintP95Ms": 1.1,
+    "invalidParticles": 0,
+    "triangles": 1008
+  },
+  {
+    "shape": "circle",
+    "rigid": true,
+    "particles": 64,
+    "birthMs": 4.662,
+    "physicsP50Ms": 5.558,
+    "physicsP95Ms": 5.917,
+    "paintP50Ms": 2.85,
+    "paintP95Ms": 3.293,
+    "invalidParticles": 0,
+    "triangles": 3968
+  },
+  {
+    "shape": "circle",
+    "rigid": false,
+    "particles": 64,
+    "birthMs": 3.642,
+    "physicsP50Ms": 11.321,
+    "physicsP95Ms": 11.985,
+    "paintP50Ms": 3.748,
+    "paintP95Ms": 4.28,
+    "invalidParticles": 0,
+    "triangles": 4800
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "celebration",
+    "frames": 97,
+    "fps": 24,
+    "width": 420,
+    "height": 640,
+    "seed": 17,
+    "peakParticles": 52,
+    "peakStreaks": 0,
+    "droppedParticles": 0,
+    "invalidParticles": 0,
+    "completion": "completed"
+  },
+  {
+    "id": "side-cannons",
+    "frames": 109,
+    "fps": 24,
+    "width": 420,
+    "height": 640,
+    "seed": 41,
+    "peakParticles": 120,
+    "peakStreaks": 0,
+    "droppedParticles": 0,
+    "invalidParticles": 0,
+    "completion": "completed"
+  },
+  {
+    "id": "paper-rain",
+    "frames": 121,
+    "fps": 24,
+    "width": 420,
+    "height": 640,
+    "seed": 73,
+    "peakParticles": 102,
+    "peakStreaks": 0,
+    "droppedParticles": 0,
+    "invalidParticles": 0,
+    "completion": "completed"
+  },
+  {
+    "id": "ribbon-dance",
+    "frames": 121,
+    "fps": 24,
+    "width": 420,
+    "height": 640,
+    "seed": 29,
+    "peakParticles": 5,
+    "peakStreaks": 0,
+    "droppedParticles": 0,
+    "invalidParticles": 0,
+    "completion": "completed"
+  },
+  {
+    "id": "streak-burst",
+    "frames": 97,
+    "fps": 24,
+    "width": 420,
+    "height": 640,
+    "seed": 97,
+    "peakParticles": 35,
+    "peakStreaks": 7,
+    "droppedParticles": 0,
+    "invalidParticles": 0,
+    "completion": "completed"
+  },
+  {
+    "id": "shape-mix",
+    "frames": 121,
+    "fps": 24,
+    "width": 420,
+    "height": 640,
+    "seed": 61,
+    "peakParticles": 56,
+    "peakStreaks": 0,
+    "droppedParticles": 0,
+    "invalidParticles": 0,
+    "completion": "completed"
+  }
+]

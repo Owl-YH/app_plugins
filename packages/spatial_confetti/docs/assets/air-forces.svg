@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="450" viewBox="0 0 1000 450" role="img"><title>05 / 两个空气系数，三个局部方向</title><rect width="1000" height="450" rx="16" fill="#f4f7fb"/><style>text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#14243a;font-size:18px}.small{font-size:15px;fill:#64748b}.title{font-size:25px;font-weight:600}</style>
+<text x="32" y="43" class="title" text-anchor="start">05 / 两个空气系数，三个局部方向</text>
+<polygon points="74.00,196.00 664.00,293.00 862.00,217.00 272.00,120.00" fill="#dbe3ed" stroke="#94a3b8" opacity="1"/>
+<line x1="467" y1="212" x2="467" y2="83" stroke="#2563eb" stroke-width="4" stroke-dasharray=""/>
+<polygon points="467.00,83.00 462.00,96.00 472.00,96.00" fill="#2563eb" stroke="none" opacity="1"/>
+<text x="493" y="105" class="" text-anchor="start">dragCoefficient</text>
+<text x="493" y="133" class="small" text-anchor="start">垂直材料表面的法向阻力</text>
+<line x1="467" y1="212" x2="750" y2="259" stroke="#0d9488" stroke-width="4" stroke-dasharray=""/>
+<polygon points="750.00,259.00 737.99,251.94 736.36,261.80" fill="#0d9488" stroke="none" opacity="1"/>
+<text x="719" y="323" class="" text-anchor="start">沿长度</text>
+<line x1="467" y1="212" x2="347" y2="264" stroke="#0d9488" stroke-width="4" stroke-dasharray=""/>
+<polygon points="347.00,264.00 360.92,263.42 356.94,254.24" fill="#0d9488" stroke="none" opacity="1"/>
+<text x="238" y="314" class="" text-anchor="start">沿宽度</text>
+<text x="410" y="350" class="" text-anchor="start">surfaceFriction：沿材料表面的两个切向分量</text>
+<text x="43" y="403" class="small" text-anchor="start">方向随材料弯曲和翻转改变；箭头示意方向，长度不表示力大小。</text>
+</svg>

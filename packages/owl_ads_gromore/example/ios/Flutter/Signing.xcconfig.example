@@ -1,0 +1,2 @@
+// Copy to the ignored Signing.xcconfig and provide the host's real team ID.
+DEVELOPMENT_TEAM = replace-with-apple-development-team-id

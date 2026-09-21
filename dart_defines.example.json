@@ -1,0 +1,12 @@
+{
+  "GROMORE_ANDROID_APP_ID": "replace-with-real-android-app-id",
+  "GROMORE_IOS_APP_ID": "replace-with-real-ios-app-id",
+  "GROMORE_REWARD_ANDROID_CODE_ID": "replace-with-real-android-reward-code-id",
+  "GROMORE_REWARD_IOS_CODE_ID": "replace-with-real-ios-reward-code-id",
+  "GROMORE_INSERT_ANDROID_CODE_ID": "replace-with-real-android-insert-code-id",
+  "GROMORE_INSERT_IOS_CODE_ID": "replace-with-real-ios-insert-code-id",
+  "GROMORE_REWARD_USER_ID": "replace-with-real-host-user-id",
+  "GROMORE_REWARD_NAME": "replace-with-real-backend-reward-name",
+  "GROMORE_REWARD_AMOUNT": "replace-with-positive-integer",
+  "GROMORE_REWARD_CUSTOM_DATA": ""
+}
